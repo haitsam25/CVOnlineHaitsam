@@ -1,0 +1,52 @@
+.skills-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #00ff00; /* Border neon hijau */
+    border-radius: 8px;
+    background-color: #1a1a1d; /* Background gelap */
+    box-shadow: 0px 0px 15px rgba(0, 255, 0, 0.3); /* Efek cahaya hijau */
+    font-family: 'Roboto', sans-serif; /* Gaya font */
+}
+
+h2 {
+    text-align: center;
+    color: #00ff00; /* Warna hijau neon */
+    font-size: 24px;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 8px rgba(0, 255, 0, 0.7); /* Efek cahaya neon */
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skill-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #333; /* Border tipis gelap */
+    color: #cfcfcf; /* Warna teks abu-abu terang */
+    transition: background-color 0.3s, transform 0.2s; /* Efek hover */
+}
+
+.skill-item:hover {
+    background-color: #333; /* Warna latar saat hover */
+    transform: scale(1.05); /* Memperbesar item saat hover */
+}
+
+.skill-item:last-child {
+    border-bottom: none; /* Menghapus border di item terakhir */
+}
+
+.skill-name {
+    font-weight: bold;
+    color: #00ff00; /* Warna hijau neon */
+    text-shadow: 0px 0px 5px rgba(0, 255, 0, 0.7); /* Efek cahaya neon */
+}
+
+.skill-level {
+    color: #888; /* Warna abu-abu muda */
+}
